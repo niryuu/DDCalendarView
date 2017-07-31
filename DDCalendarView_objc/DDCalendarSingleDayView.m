@@ -252,7 +252,6 @@
         NSInteger days = [self.date daysFromDate:[NSDate date]];
         NSDate *date = [NSDate dateWithHour:now.hour min:now.minute inDays:days];
         CGPoint datePoint = [self pointForDate:date];
-        datePoint.y += HEIGHT_CELL_MIN/2;
         datePoint.y += 2; //;)
         
         CGRect f = self.bounds;
